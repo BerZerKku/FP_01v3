@@ -1,0 +1,8 @@
+*.jrl*
+*.log*
+*.txt,*
+*.dat
+*.dml
+*.*,*
+*.cnv*
+pcb/rep
