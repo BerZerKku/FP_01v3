@@ -58,7 +58,11 @@
       (DisplayName "pstxprt.dat"))
     (File ".\pcb\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (Sort User)
+    (File "FP_01V3.PRP"
+      (Type "Report")
+      (DisplayName "FP_01V3.PRP")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (DIODE_TVS_BI
@@ -80,10 +84,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\fp_01v3.dsn")
-      (Path "Design Resources" ".\fp_01v3.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "d:\project\circuit\orcad\fp\01v3\fp_01v3.dsn")
+      (Path "Design Resources" "d:\project\circuit\orcad\fp\01v3\fp_01v3.dsn"
+         "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\fp_01v3.dsn"))
+      (Select "Design Resources" "d:\project\circuit\orcad\fp\01v3\fp_01v3.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -93,9 +98,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 54 1746 56 514")
-        (Scroll "0 510")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 -4 -29 189 1561 196 654")
+        (Scroll "-245 30")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\FP\01V3\FP_01V3.DSN")
       (Schematic "SCHEMATIC1")
