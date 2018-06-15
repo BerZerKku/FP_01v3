@@ -60,7 +60,7 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (Sort User)
-    (File "FP_01V3.PRP"
+    (File ".\fp_01v3.prp"
       (Type "Report")
       (DisplayName "FP_01V3.PRP")))
   (Folder "Referenced Projects")
@@ -84,25 +84,24 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "d:\project\circuit\orcad\fp\01v3\fp_01v3.dsn")
-      (Path "Design Resources" "d:\project\circuit\orcad\fp\01v3\fp_01v3.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\fp_01v3.dsn")
+      (Path "Design Resources" ".\fp_01v3.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" "d:\project\circuit\orcad\fp\01v3\fp_01v3.dsn"))
+      (Select "Design Resources" ".\fp_01v3.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 911"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 189 1561 196 654")
-        (Scroll "-245 30")
+        (Placement "44 0 1 -1 -1 -4 -28 44 1487 54 547")
+        (Scroll "-282 111")
         (Zoom "100")
         (Occurrence "/"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\FP\01V3\FP_01V3.DSN")
+      (Path "D:\PROJECT\CIRCUIT\AVANT\FP\01V3\FP_01V3.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (MPSSessionName "Shcheblykin")
